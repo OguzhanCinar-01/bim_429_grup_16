@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 107
+names: ['Abant Kebabi', 'Ali Nazik', 'Amerikan Salatasi', 'Arpa Sehriyeli Tavuk', 'Ayran', 'Ayva Tatlisi', 'Baklava', 'Bamya', 'Barbunya', 'Biber Dolmasi', 'Biftek', 'Browni', 'Bulbul Yuvasi', 'Bulgur Pilavi', 'But Kizartma', 'Cacik', 'Cig Kofte', 'Cikolatali Baklava', 'Coban Salata', 'Dilim Pasta', 'Duble Salata', 'Ekmek', 'Ekmek Kadayifi', 'Elma', 'Eriste', 'Et Doner', 'Et Sote', 'Etli Dugun Yemegi', 'Etli Patates Yemegi', 'Ezogelin Corbasi', 'Gazoz', 'Hasanpasa Kofte', 'Havuc Dilim Baklava', 'Icli Kofte', 'Islim Kebabi', 'Ispanak Yemegi', 'Izgara Balik', 'Izgara Kofte', 'Izmir Kofte', 'Kabak Tatlisi', 'Kagit Kebabi', 'Karisik Izgara', 'Karisik Tursu', 'Karnabahar Mezesi', 'Kazandibi', 'Kemalpasa', 'Kepekli Ekmek', 'Keskul', 'Kesmeasi Corbasi', 'Kibris Tatlisi', 'Kir Koftesi', 'Kisir', 'Kiymali Patates Yemegi', 'Kola', 'Komposto', 'Kori Soslu Pilic', 'Kremali', 'Kremali Sebze Corbasi', 'Kuru Fasulye', 'Lahmacun', 'Limonata', 'Manti', 'Mercimek Corbasi', 'Mevsim Salata', 'Meyve', 'Meyve Suyu', 'Meze', 'Misirli Salata', 'Nohut Yemegi', 'Orman Kebabi', 'Patlican Musakka', 'Pilic Graten', 'Pilic Kroket', 'Pilic Sinitzel', 'Pirasa', 'Pirinc Pilavi', 'Pizza', 'Puding', 'Pureli Mis Kofte', 'Rosto Kofte', 'Saksuka', 'Salgam Suyu', 'Sarma', 'Sekerpare', 'Sinitzel', 'Sobiyet', 'Soda', 'Soguk Cay', 'Soslu Makarna', 'Su', 'Tas Kebabi', 'Tavuk Doner', 'Tavuk Graten', 'Tavuk Izgara Biftek', 'Tavuk Izgara Julien', 'Tavuk Kulbasti', 'Tavuk Sis', 'Taze Fasulye', 'Tel Kadayif', 'Tel Sehriye Corbasi', 'Trilece', 'Tulumba Tatlisi', 'Yayla Corbasi', 'Yesil Mercimek', 'Yesil Salata', 'Yogurt', 'Zeytinyagli Meze']
+
+roboflow:
+  workspace: veri-yemekleri
+  project: veri-madenciligi
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/veri-yemekleri/veri-madenciligi/dataset/9
