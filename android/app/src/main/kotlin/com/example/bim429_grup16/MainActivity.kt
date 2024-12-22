@@ -1,4 +1,4 @@
-package com.example.bim_429_grup_16
+package com.example.bim429_grup16
 
 import io.flutter.embedding.android.FlutterActivity
 

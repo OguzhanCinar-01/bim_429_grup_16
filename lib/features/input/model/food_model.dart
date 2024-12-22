@@ -1,10 +1,9 @@
 class FoodModel {
   String? name;
-  String? type; // 'Meat', 'Auxiliary', 'Bread', 'Water', vs.
+  String? type; 
   double? calories;
   double? price;
 
-  // Constructor
   FoodModel({
     this.name,
     this.type,
@@ -12,7 +11,6 @@ class FoodModel {
     this.price,
   });
 
-  // JSON dönüştürme
   Map<String, dynamic> toJson() {
     return {
       'name': name,
@@ -22,7 +20,6 @@ class FoodModel {
     };
   }
 
-  // JSON'dan model oluşturma
   FoodModel.fromJson(Map<String, dynamic> json)
       : name = json['name'],
         type = json['type'],
